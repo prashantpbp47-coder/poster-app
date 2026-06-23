@@ -1,5 +1,9 @@
 {
-  "name": "@workspace/api-server",
+"scripts": {
+      "build": "tsc",
+      "dev": "tsx watch src/index.ts",
+      "start": "node dist/index.js"
+    },  "name": "@workspace/api-server",
   "version": "0.0.0",
   "private": true,
   "type": "module",
